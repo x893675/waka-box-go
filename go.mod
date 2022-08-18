@@ -10,3 +10,7 @@ require (
 	github.com/joho/godotenv v1.3.0
 	github.com/kr/pretty v0.2.0 // indirect
 )
+
+replace (
+	github.com/YouEclipse/wakatime-go => ./staging/src/wakatime-go
+)
